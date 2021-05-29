@@ -1,0 +1,4 @@
+Zip 20000 units 50
+Fabric 94526 meters 34
+Thread 8410 meters 90
+Button 222100 units 90

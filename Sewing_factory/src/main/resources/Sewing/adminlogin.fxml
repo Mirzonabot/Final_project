@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.text.Font?>
+
+<BorderPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="250.0" prefWidth="400.0" xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Sewing.adminloginController">
+   <left>
+      <AnchorPane prefHeight="250.0" prefWidth="102.0" style="-fx-background-color: #0598ff;" BorderPane.alignment="CENTER" />
+   </left>
+   <right>
+      <AnchorPane prefHeight="269.0" prefWidth="301.0" BorderPane.alignment="CENTER">
+         <children>
+            <TextField fx:id="adminname" layoutX="50.0" layoutY="71.0" promptText="Username" style="-fx-background-color: transparent; -fx-border-color: #0598ff; -fx-border-width: 0px 0px 2px 0px;" />
+            <TextField fx:id="adminpassword" layoutX="50.0" layoutY="112.0" promptText="Password" style="-fx-background-color: transperant; -fx-border-color: #0598ff; -fx-border-width: 0px 0px 2px 0px;" />
+            <Button layoutX="99.0" layoutY="163.0" mnemonicParsing="false" onAction="#admin_login_pressed" style="-fx-background-color: #0598ff;" text="Login" />
+            <Label layoutX="80.0" layoutY="27.0" text="Admin Login">
+               <font>
+                  <Font size="15.0" />
+               </font>
+            </Label>
+            <TextField fx:id="admin_login_update" editable="false" layoutX="48.0" layoutY="211.0" style="-fx-background-color: transperant;" />
+         </children>
+      </AnchorPane>
+   </right>
+</BorderPane>

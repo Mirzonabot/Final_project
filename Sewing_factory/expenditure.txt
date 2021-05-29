@@ -1,0 +1,4 @@
+Jeans 2 3 100 5
+Shirt 0 2 70 10
+T-shirt 0 2 70 0
+Jackets 4 3 5 10
